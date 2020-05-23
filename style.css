@@ -1,0 +1,87 @@
+.root {
+    height: 750px;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    border: 2px solid grey;
+}
+.plane{
+    position: absolute;
+    top:100px;
+    left: 160px;
+    width: 80px;
+    height: 70px;
+    background-image: url(biman3.png);
+    background-size: cover;
+}
+.base{
+    position: absolute;
+    bottom:0px;
+  
+    width: 100px;
+    height: 100px;
+    color: white;
+    border-radius: 50%;
+   background-color: green;
+
+    text-align: center;
+    font-size: 1 rem;
+}
+.bomb{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 10px;
+    height: 20px;
+    border-radius: 20%;
+    color: white;
+    background-color: red;
+    text-align: center;
+    font-size: 2 rem;
+}
+.score {
+    font-size: large;
+    color: black;
+    padding-right: 40px;
+    float: left;
+}
+ .time{
+     float: right;
+     font-size: 20px;
+     padding-right: 10px;
+ }
+
+.show{
+    display: none;
+}
+#start {
+height: 53px;
+width: 120px;
+background: antiquewhite;
+font-size: 20px;
+margin-top: 20%;
+margin-left: 40%;
+}
+#result {
+ 
+    height: 200px;
+    width: 200px;
+    background-color: cornflowerblue;
+    color: white;
+    margin-left: 40%;
+   margin-top: 20%;
+   padding-left: 40px;
+   padding-top: 30px;
+}
+#result p {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+#rule {
+    border: 2px solid rosybrown;
+    padding: 10px;
+    width: 20%;
+    margin-top: -154px;
+    margin-left: 15px;
+}
